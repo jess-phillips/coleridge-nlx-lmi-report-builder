@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* Coleridge primary palette */
+  --color-brand-navy:       #191e3f;
+  --color-brand-purple:     #4c2a9d;
+  --color-brand-green:      #05d350;
+  --color-brand-darkgreen:  #036a49;
+
+  /* Coleridge secondary palette (charts & accents) */
+  --color-brand-teal:       #1fb8ab;
+  --color-brand-crimson:    #b81f3d;
+  --color-brand-gold:       #b87814;
+  --color-brand-chartreuse: #82b814;
+
+  /* Typography — CSS vars injected by next/font/google in layout.tsx */
+  --font-sans:    var(--font-roboto),     ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+}

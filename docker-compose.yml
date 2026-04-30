@@ -1,0 +1,12 @@
+services:
+  nlx-report-builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nlx-report-builder
+    container_name: nlx-report-builder
+    environment:
+      DATA_CSV_PATH: /app/data/simulated_data.csv
+      NODE_ENV: production
+    ports:
+      - "3000:3000"
